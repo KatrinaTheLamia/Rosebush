@@ -1,0 +1,3 @@
+include pda_zxweb/config/deployment.ini_tmpl
+recursive-include pda_zxweb/public *
+recursive-include pda_zxweb/templates *

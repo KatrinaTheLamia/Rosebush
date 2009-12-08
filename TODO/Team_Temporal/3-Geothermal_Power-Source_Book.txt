@@ -1,0 +1,28 @@
+
+= Geothermal Power
+
+== Maps
+
+== Gyms
+
+== New Tech
+
+ * Monorail
+ * Super Conductors
+ * Ear Jack
+
+== Characters
+
+=== Kim Il
+
+=== Chamille
+
+=== Draco
+
+== Templates
+
+ * Glacier Admin
+ * Glacier Soldier
+ * Glacier Medic
+ * Glacier Scientist
+

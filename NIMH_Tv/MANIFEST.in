@@ -1,0 +1,3 @@
+include nimh_tv/config/deployment.ini_tmpl
+recursive-include nimh_tv/public *
+recursive-include nimh_tv/templates *
