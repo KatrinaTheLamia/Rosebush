@@ -19,6 +19,8 @@ def make_map():
     map.resource('page','pages')
     # The tags map
     map.resource('tag','tags')
+    # Comments
+    map.resource('comment','comments')
 
     # And... more generic routes
 
