@@ -13,6 +13,16 @@ def make_map():
                  always_scan=config['debug'])
     map.minimization = False
 
+    # The news based map.
+    map.resource('new','news')
+    # The generic pages map (grab branch for more functionality)
+    map.resource('page','pages')
+    # The tags map
+    map.resource('tag','tags')
+
+    # And... more generic routes
+
+
     # The ErrorController route (handles 404/500 error pages); it should
     # likely stay at the top, ensuring it can always be resolved
     map.connect('/error/{action}', controller='error')
@@ -22,8 +32,5 @@ def make_map():
 
     map.connect('/{controller}/{action}')
     map.connect('/{controller}/{action}/{id}')
-
-    map.connect('page','pages')
-    map.connect('new','news')
 
     return map
