@@ -23,6 +23,7 @@ def make_map():
     map.connect('/{controller}/{action}')
     map.connect('/{controller}/{action}/{id}')
 
-    map.connect('news','new')
+    map.connect('page','pages')
+    map.connect('new','news')
 
     return map
