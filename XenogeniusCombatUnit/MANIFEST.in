@@ -1,3 +1,0 @@
-include xenogeniuscombatunit/config/deployment.ini_tmpl
-recursive-include xenogeniuscombatunit/public *
-recursive-include xenogeniuscombatunit/templates *

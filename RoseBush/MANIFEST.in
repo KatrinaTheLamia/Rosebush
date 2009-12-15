@@ -1,3 +1,0 @@
-include rosebush/config/deployment.ini_tmpl
-recursive-include rosebush/public *
-recursive-include rosebush/templates *

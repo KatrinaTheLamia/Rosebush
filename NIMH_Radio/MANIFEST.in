@@ -1,3 +1,0 @@
-include nimh_radio/config/deployment.ini_tmpl
-recursive-include nimh_radio/public *
-recursive-include nimh_radio/templates *
