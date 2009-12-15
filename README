@@ -1,0 +1,39 @@
+
+NIMH Labs Rosebush
+
+NIMH Labs Rosebush is the new backend that will run NIMH Labs.com, 
+RaddTeam.com and KidRadd.Org. Maybe Interesting Times Magazine as well 
+depending on how things work.
+
+Rosebush is mostly designed to be a variant based setup. That is--in its 
+current design, each different addition will be in its own git branch.
+Allowing for custom systems to be much better.
+
+
+Rosebush itself, as a base, is more a platform and framework for web 
+content to be posted.
+
+Features I plan to include, at least into the base:
+ * OpenId/Twitter/Facebook/Google/Yahoo! based login system
+ * Extensive tagging system. Both Controller, Resource Identifier and Tags 
+   are used for reference.
+ * The ability to switch between RSS, Atom, Postscript, RDF, HTML5, XHTML2
+   HTML2, JSON and Timothy.lisp
+ * Joke skins, such a TimeCube, Geocities, JeffK, etc., and joke filters 
+   that allow for a B1FF! type look at the page content.
+ * Translate us! Feature. Generally a system that stores a session type 
+   system that will automatically translate into your preferred language. 
+   Some browsers send a header which suggests a language--we can look for 
+   this.
+ * Digg! and Stumbler based posting type setups. The login systems will 
+   generally handle all the other automatically suggestion type system 
+   for the most part.
+ * Favourite system. Stores this as a page you liked, and posts in onto 
+   whatever login account system you are using.
+ * Linked accounts... access the same stuff based on any login type 
+   account.
+ * Skinable type system.
+
+
+
+
