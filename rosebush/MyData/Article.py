@@ -40,7 +40,7 @@ article_raw_table = sa.Table('article_raw', metadata,
 		       sa.Column('raw_text', sa.Text),
 		       )
 
-arclass Article_Locator(object):
+class Article_Locator(object):
 	"""
 		The Article_Locator object is for use with SQL Alchemy to
 		describe the location methods presented here.
